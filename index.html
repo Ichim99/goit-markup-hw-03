@@ -7,19 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-    <header>
+    <header class="container-header">
         <a href="./index.html" class="logo">Web<span class="logo2">Studio</span></a>
         <nav >
-            <ul>
+            <ul class="nav-bar">
                 <li><a href="./index.html" class="main-nav" id="current">Studio</a></li>
                 <li><a href="./portofoliu.html" class="main-nav">Portfolio</a></li>
-                <li class="main-nav">Contacts</li>
+                <li><a href="#" class="main-nav">Contacts</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="links-bar">
             <li><a href="mailto:info@devstudio.com" class="social-link">info@devstudio.com</a></li>
             <li><a href="tel:+1-212-772-4150" class="social-link">+1 212-772-4150</a></li>
         </ul>
@@ -27,12 +28,12 @@
     </header>
 
     <main>
-        <section class="title">
-            <h1 >EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+        <section class="title-section">
+            <h1 class="title">EFFECTIVE SOLUTIONS FOR <br>YOUR BUSINESS</h1>
             <button type="button" class="button">Request our service</button>
         </section>
         
-        <ul>
+        <ul class="container-info">
         <li> 
             <h3 class="group-title">ATTENTION TO DETAILS</h3>
             <p class="group-details">We go into all the details and processes of your business to develop a customized solution.</p>
@@ -54,18 +55,18 @@
         </li>
         </ul>
 
-        <section>
+        <section class="container-3photo">
             <h2 class="section-title">What we do</h2>
-            <ul>
-                <li><img src="./images/box-1.jpg" alt="work" width="370"/></li>
-                <li><img src="./images/box-2.jpg" alt="work" width="370"/></li>
-                <li><img src="./images/box-3.jpg" alt="work" width="370"/></li>
+            <ul class="photo-we-do">
+                <li class="photo-we-do"><img src="./images/box-1.jpg" alt="work" width="370" height="294"/></li>
+                <li class="photo-we-do"><img src="./images/box-2.jpg" alt="work" width="370" height="294"/></li>
+                <li class="photo-we-do"><img src="./images/box-3.jpg" alt="work" width="370" height="294"/></li>
             </ul>    
         </section>
 
-        <section class="team">
+        <section class="container-team">
             <h2 class="section-title">Our Team</h2>
-            <ul>
+            <ul class="team">
                 <li>
                     <img src="./images/Christopher-Walker.jpg" alt="worker" width="270"/>
                     <h4 class="team-name">Christopher Walker</h4>
@@ -92,9 +93,9 @@
     </main>
 
     <footer class="footer-zone">
-        <a href="./index.html" class="logo">Web<span class="logo2-footer">Studio</span></a>
+        <a href="./index.html"class="footer-logo" >Web<span class="logo2-footer">Studio</span></a>
         <address>
-            <ul>
+            <ul class="footer-address">
                 <li class="location">695 Park Ave, NY 10065, USA</li>
                 <li> <a href="mailto:info@devstudio.com" class="social-link">info@devstudio.com</a></li>
                 <li><a href="tel:+1-212-772-4150" class="social-link">+1 212-772-4150</a></li>
